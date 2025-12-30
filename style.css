@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Quicksand", sans-serif;
+}
+p,h1,h2,h3,ul{
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    margin: 0 auto;
+    width: 1620px;
+}
+.header{
+    padding: 60px 0px 61px;
+    background-color: #0C70AC;
+    border-bottom: 1px solid #FFFFFF;
+}
+.header-list{
+    display: flex;
+    gap: 95px;
+    align-items: center;
+    justify-content: center;
+}
+.header-link{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+.header-link:hover{
+    color: #F4DE1F;
+}
+.hero {
+    background-color: #0C70AC;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+}
+.hero-text{
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #000;
+}
+.destinations{
+    background-color: #FFFFFF;
+    padding: 80px 0px;
+}
+.destinations-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #000;
+}
+.destinations-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.destinations-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.destinations-subtitle{
+    font-size: 30px;
+    margin-top: 30px;
+    color: #000;
+}
+.destinations-text {
+    margin-top: 15px;
+    color: #333333;
+}
+.destinations-link {
+    margin-top: 30px;
+    color: #7C7C7C;
+    text-decoration: underline;
+}
+.blog{
+    background-color: #E6E6E6;
+    padding: 80px 0px;
+}
+.blog-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #000;
+}
+.blog-item {
+  background-color: #fff;
+  border-radius: 16px;
+}
+.blog-date {
+    font-size: 16px;
+    color: #7C7C7C;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.blog-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.blog-subtitle{
+    margin-top: 25px;
+    color: #000;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.blog-text {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #7C7C7C;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.footer{
+    background-color: #001C2D;
+    border-top: 1px solid #FFFFFF;
+    padding: 63px 0;
+}
+.footer-text{
+    text-align: center;
+    font-size: 20px;;
+    color: #FFFFFF;
+}
