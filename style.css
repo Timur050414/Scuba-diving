@@ -12,7 +12,6 @@ h3,
 ul {
     margin: 0px;
     padding: 0px;
-    font-size: 24px;
 }
 
 ul {
@@ -47,6 +46,7 @@ a {
     font-weight: 700;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
+    font-size: 24px;
 }
 
 .header-link:hover {
@@ -68,6 +68,7 @@ a {
     color: #FFFFFF;
     font-size: 64px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .hero-text {
@@ -105,7 +106,8 @@ a {
 }
 
 .destinations-subtitle {
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: 500;
     margin-top: 30px;
     color: #000;
 }
@@ -113,12 +115,16 @@ a {
 .destinations-text {
     margin-top: 15px;
     color: #333333;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .destinations-link {
     margin-top: 30px;
     color: #7C7C7C;
     text-decoration: underline;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /* 5. Blog */
@@ -135,6 +141,11 @@ a {
     color: #000;
 }
 
+.blog-list {
+    display: flex;
+    gap: 30px;
+}
+
 .blog-item {
     background-color: #fff;
     border-radius: 16px;
@@ -148,17 +159,12 @@ a {
     margin-left: 40px;
 }
 
-.blog-list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
 .blog-subtitle {
     margin-top: 25px;
     color: #000;
     font-weight: 600;
     margin-left: 40px;
+    font-size: 24px;
 }
 
 .blog-text {
@@ -176,11 +182,9 @@ a {
     padding: 75px 0px 80px;
 }
 
-.gallery-list {
+.gallery-links-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    max-width: 500px;
+    gap: 269px;
 }
 
 .gallery-title {
@@ -190,9 +194,11 @@ a {
     margin-bottom: 50px;
 }
 
-.gallery-links-container {
+.gallery-list {
     display: flex;
-    gap: 269px;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 500px;
 }
 
 .links-title {
@@ -202,17 +208,17 @@ a {
     margin-bottom: 50px;
 }
 
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 239px;
+}
+
 .links-link {
     font-size: 24px;
     color: #FFFFFF;
     margin-bottom: 50px;
     font-weight: 600;
-}
-
-.links-wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 239px;
 }
 
 /* 7. Footer */
