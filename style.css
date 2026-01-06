@@ -1,11 +1,15 @@
-/* =================== Базові стилі =================== */
+/* 1. Базові стилі */
 body {
     margin: 0px;
     padding: 0px;
     font-family: "Quicksand", sans-serif;
 }
 
-p, h1, h2, h3, ul {
+p,
+h1,
+h2,
+h3,
+ul {
     margin: 0px;
     padding: 0px;
     font-size: 24px;
@@ -25,7 +29,7 @@ a {
     width: 1620px;
 }
 
-/* =================== Header =================== */
+/* 2. Header */
 .header {
     padding: 60px 0px 61px;
     background-color: #0C70AC;
@@ -49,7 +53,7 @@ a {
     color: #F4DE1F;
 }
 
-/* =================== Hero =================== */
+/* 3. Hero */
 .hero {
     background-color: #0C70AC;
 }
@@ -74,7 +78,7 @@ a {
     text-shadow: 0px 4px 4px #000;
 }
 
-/* =================== Destinations =================== */
+/* 4. Destinations */
 .destinations {
     background-color: #FFFFFF;
     padding: 80px 0px;
@@ -117,7 +121,7 @@ a {
     text-decoration: underline;
 }
 
-/* =================== Blog =================== */
+/* 5. Blog */
 .blog {
     background-color: #E6E6E6;
     padding: 80px 0px;
@@ -131,12 +135,6 @@ a {
     color: #000;
 }
 
-.blog-list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
 .blog-item {
     background-color: #fff;
     border-radius: 16px;
@@ -148,6 +146,12 @@ a {
     font-weight: 600;
     margin-top: 25px;
     margin-left: 40px;
+}
+
+.blog-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .blog-subtitle {
@@ -166,33 +170,10 @@ a {
     margin-left: 40px;
 }
 
-/* =================== Gallery & Links =================== */
+/* 6. Gallery & Quick Links */
 .gallery-links {
     background-color: #001C2D;
     padding: 75px 0px 80px;
-}
-
-.gallery-links-container {
-    display: flex;
-    gap: 269px;
-}
-
-.gallery-wrap, .links-wrap {
-    flex: 1;
-}
-
-.gallery-title, .links-title {
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 50px;
-}
-
-.gallery-title {
-    color: #FFFFFF;
-}
-
-.links-title {
-    color: #FFFFFF;
 }
 
 .gallery-list {
@@ -202,9 +183,30 @@ a {
     max-width: 500px;
 }
 
-.gallery-item .gallery-image {
-    width: 100%;
-    display: block;
+.gallery-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.gallery-links-container {
+    display: flex;
+    gap: 269px;
+}
+
+.links-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.links-link {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    font-weight: 600;
 }
 
 .links-wrapper {
@@ -213,19 +215,7 @@ a {
     gap: 239px;
 }
 
-.links-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.links-link {
-    font-size: 24px;
-    color: #FFFFFF;
-    font-weight: 600;
-}
-
-/* =================== Footer =================== */
+/* 7. Footer */
 .footer {
     background-color: #001C2D;
     border-top: 1px solid #FFFFFF;
